@@ -9,5 +9,6 @@ args:
   AIRFLOW_VERSION: 1.10.10
   AIRFLOW_DEPS: kubernetes,slack,aws,s3,elasticsearch,postgres
   PAPERMILL_PACKAGE: "git+https://github.com/viaduct-ai/papermill.git@674d31dcbec73622f292f44224b819746cbfa0b5#egg=papermill[s3]"
+  PYTHON_DEPS: testbook
 # Environment variables to inject as build arguments
 env: {}
